@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <title>Happy new year!</title>
+  <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+  <script src=”https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+</head>
+<!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
+
+<body style='margin : 0px; overflow: hidden;'>
+<a-scene embedded arjs='sourceType:webcam;debugUIEnabled: false;'>
+  <a-assets>
+    <img id="ground" src="assets/texture/ground-texture.jpg"/>
+    <img id="ground-NRM" src="assets/texture/ground-texture-NRM.jpg"/>
+    <a-asset-item id="sun" src="assets/sun/scene.gltf"></a-asset-item>
+    <a-asset-item id="flying_crow" src="assets/flying_crow/scene.gltf"></a-asset-item>
+
+    <a-asset-item id="mountain" src="assets/mountain/scene.gltf"></a-asset-item>
+    <a-asset-item id="temple" src="assets/temple/scene.gltf"></a-asset-item>
+    <a-asset-item id="pond" src="assets/pond/scene.gltf"></a-asset-item>
+    <a-asset-item id="house" src="assets/house/scene.gltf"></a-asset-item>
+    <a-asset-item id="forest" src="assets/forest/scene.gltf"></a-asset-item>
+    <a-asset-item id="dog" src="assets/dog/scene.gltf"></a-asset-item>
+    <a-asset-item id="city_center" src="assets/city_center/scene.gltf"></a-asset-item>
+
+    <a-asset-item id="baby_chicken" src="assets/baby_chicken/scene.gltf"></a-asset-item>
+
+    <a-asset-item id="wheat" src="assets/wheat/scene.gltf"></a-asset-item>
+
+    <a-asset-item id="light_house" src="assets/light_house/scene.gltf"></a-asset-item>
+
+    <a-asset-item id="hospital" src="assets/hospital/scene.gltf"></a-asset-item>
+    <a-asset-item id="gym" src="assets/gym/scene.gltf"></a-asset-item>
+    <a-asset-item id="ambulance" src="assets/ambulance/scene.gltf"></a-asset-item>
+    <a-asset-item id="anime_woman" src="assets/anime_woman/scene.gltf"></a-asset-item>
+  </a-assets>
+  <a-marker type='pattern' url='https://born2shine.000webhostapp.com/img/pattern-born2shineQR.patt'>
+    <a-image
+      id="image"
+      position="0 0 0"
+      src="https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?ixlib=rb-4.0.3&dl=kabo-p6yH8VmGqxo-unsplash.jpg&w=640&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+    ></a-image>
+    <a-entity gltf-model="#anime_woman" scale="0.1 0.1 0.1" rotation="-90 0 0"></a-entity>
+    <!--        <a-video-->
+    <!--          rotation="-90 0 0"-->
+    <!--          position="0 0 0"-->
+    <!--          src="https://cdn.glitch.me/d70cd349-c211-4f54-8718-bbc2c08bcb9c/ban%20nang.mp4"></a-video>-->
+
+    <!-- Hospital -->
+
+    <a-entity
+      gltf-model="#house"
+      scale="1 1 1"
+      rotation="-90 0 0"
+    >
+    </a-entity>
+  </a-marker>
+  <a-entity camera></a-entity>
+</a-scene>
+</body>
+</html>
