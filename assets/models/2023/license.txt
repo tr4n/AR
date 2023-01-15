@@ -1,0 +1,11 @@
+Model Information:
+* title:	2023 Glasses
+* source:	https://sketchfab.com/3d-models/2023-glasses-7e7011f6e6cd49c38c8a760c6fde1bc7
+* author:	Duznot (https://sketchfab.com/duz_vr)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "2023 Glasses" (https://sketchfab.com/3d-models/2023-glasses-7e7011f6e6cd49c38c8a760c6fde1bc7) by Duznot (https://sketchfab.com/duz_vr) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

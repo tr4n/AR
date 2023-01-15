@@ -1,8 +1,8 @@
 {
   "short_name": "",
-  "name": "",
+  "name": "Happy new year!",
   "icons": [{
-    "src": "icon.png",
+    "src": "assets/images/luckycat2.jpg",
     "type": "image/png",
     "sizes": "192x192"
   }],
